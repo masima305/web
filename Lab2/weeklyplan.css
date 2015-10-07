@@ -1,0 +1,62 @@
+p {
+	font-family: Arial, Georgia, sans-serif;
+
+}
+p:first-letter { 
+	font-size: 150%; 
+} 
+h1 {
+	text-align: center;
+	color :  #91D8C2
+}
+h2 {
+	font-size: 1.8em;
+	color : #91D8C2
+	}
+dl {
+	font-size: 75%;
+	color : #FDFD1B
+	}
+dl dt{
+	font-weight: bold
+	}
+img {
+	width : 300px; height : 300px;
+}
+	
+body{
+	
+    background-image: url(http://selab.hanyang.ac.kr/courses/cse326/2015/labs/labResources/cse326bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: right top; 
+	background-color: #4051B5;
+	color :  #8ED4E6
+	}
+ins {
+	text-decoration : none;
+	color : #10FF10
+}
+ins:hover{
+	
+	font-weight : bold
+}
+del{
+	color : #FF3636
+}
+table, td, th {border: 2px solid black; border-collapse: collapse;}
+tr:last-child{
+	background-color : white;
+}
+caption {
+	text-align: right;
+}
+strong {
+	text-shadow: 2px 2px  #ACACAC;
+}
+ol {list-style-type: lower-greek;}
+a img{
+	width : auto; height : auto;
+}
+ 
+}
