@@ -1,0 +1,249 @@
+html{
+	font-family :Brown, verdana, sans-serif;
+}
+body{
+	border : 5px solid pink;
+}
+body>div{
+	border : 5px solid red;
+	margin : auto;
+	max-width : 1024px;
+}
+body>div>div{
+	border : 5px solid yellow;
+}
+body>div>div>h1{
+	text-align : center;
+}
+
+
+#content{
+	border : 5px solid blue;
+	overflow : hidden;
+}
+
+
+body>div>article{
+	margin-top : 10px;	
+	border : 5px solid #339966;
+}
+article>div>div>img{
+	margin : 6px 0 6px 12px;
+	width : 91px;
+	height : 91px;
+}
+
+.list {
+	height : 104px;
+	border : 1px solid  #CDCDCD;
+	overflow : hidden;
+	font-size : 
+}
+.list> * {
+	float : left;
+}
+.list>div>p{
+	display : block;
+	overflow : hidden;
+}
+.list>div>p>span:first-child{
+	font-size: 24px
+}
+.list>div>p>span:last-child{
+	font-size: 16px;
+	color : #1cace2;
+	}
+.ranking{
+	width : 100xp;
+	margin : 10xp 10px 0 10px; 
+	display : inline;
+}
+.ranking > span:first-child{
+	font-size : 62px;
+	text-align : center;
+}
+.ranking > span:last-child{
+	font-size : 12.4px;
+	color : #989898;
+	height : 1;
+	text-align : center;
+}
+.history{
+	width : 34px;
+	height : 104px;
+	text-align : center;
+	background-color : rgb(231,231,231);
+	border : 1px solid  #339966;
+	float:left;
+}
+.fa.fa-arrow-up{
+	color : #05c648;	
+}
+.fa.fa-arrow-down{
+	color : #f93c33;
+}
+
+
+aside{
+	border : 5px solid brown;
+	background-color : black;
+	color : white;
+	width : 300px;
+	margin : 10px 10px 0 0;
+	float : right;
+	}	
+aside>div>div{
+	border : 5px solid red;
+	height : 100px;
+	padding : 0 10px 5px 10px;
+	border-bottom : 1px solid #989898;
+	overflow : hidden;
+	}
+#ashead{
+	background-color : #484647;
+	padding : 0.75em;
+	}
+#ashead>span{
+	color : black;
+	}
+.subta{
+	color :  #989898;
+	padding : 1em;
+	}
+aside>div>div>div>span{
+	width : 45px;
+	font-size : 2em;
+	text-align : center;
+	margin-top : 6px;
+	float : left;
+	}
+aside>div>div>div img{
+	width : 2.5em;
+	height : 2.5em;
+	margin : 6px;
+	float : left;
+}
+aside>div>div>div p{
+	width : 192px;
+	margin : 0px;
+}
+.name{
+	font-size : 1em;
+	color : white;
+}
+.cont{
+	width : 192px;
+	
+}
+aside>div>div>div>p> span{
+	font-size : 12px;
+	color : #1cace2;
+	margin-top : 5px;
+}
+.fa.fa-play{
+	width : 32px;
+	height: 32px;
+	border : 2px solid white;
+	border-radius : 50%;
+	font-size: 15px;
+	margin : 5px;
+	text-align : center;
+	float : right;
+}
+
+
+
+#week{
+	background-color : black;
+	color : white;
+	text-align : center;
+	}
+#week>div{
+	margin : 10px 10px 0 0;	
+	}
+#week>div>div i{
+	border : 1px solid black;
+	color : white;
+	float : left;
+	width : 32px;
+	height : 32px;
+	border-radius : 50%;
+	font-size : 1.25em;	
+	overflow : hidden;
+	line-height: 170%
+	}
+#week>div .fa.fa-facebook{
+	color : white;
+	background-color : #3b5998;
+	}
+#week>div .fa.fa-twitter{
+	background-color : #55acee;
+	color : white;
+	margin-left : 0.25em;
+		
+	}
+
+	
+	
+	
+nav>div{
+	border : 1px solid  #D9D9D8;
+	float : left;
+	
+    }
+nav>div:not(#search-wrap){
+	padding : 0.65em 0.72em 0.72em 0.65em;
+	
+	}
+nav>div:not(#search-wrap):hover{
+	border : 1px solid black;
+	box-shadow: 0px 0px 0px 1px
+	}
+
+
+
+#brand{
+	padding : 32px 20px 10px 20px;
+	overflow : hidden;
+	}
+#brand>a img{
+	width : 300px;
+	height : 62px;
+	float: left;
+	}
+#brand>div>a {
+	margin-top : 45px;
+	float : right;
+	margin-right: 10px;
+	}
+
+
+
+
+
+header {
+	overflow : hidden;
+	background-color : black;
+	}
+header>div{
+	max-width : 1024px;
+	margin : auto;
+	}
+header>div>div{
+	background-color : black;
+	color : white;
+	float : left;
+	padding : 11px 30px 11px 0px ;
+	font-size : 15px;
+	}
+#fest{
+	background-color : black;
+	color : #ff6567;
+	float : right;
+	font-size : 15px;
+	}
+header>div :hover{
+	color :  #1cace2;
+	cursor : pointer;
+	
+	}

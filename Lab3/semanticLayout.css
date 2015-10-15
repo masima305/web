@@ -37,6 +37,9 @@ body>div> article * *:not(.section):hover{
 body>div> aside *:hover{
 	background-color : #ffff00;
 }
+aside.fa{
+	 color : #989898;
+}
 
 
 
