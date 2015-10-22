@@ -1,181 +1,311 @@
-html{
+html
+{
+	  /* 윤인아 2013049595 */
+
 	font-family :Brown, verdana, sans-serif;
 }
-body{
-	border : 5px solid pink;
-}
-body>div{
-	border : 5px solid red;
+
+body>div
+{	
 	margin : auto;
 	max-width : 1024px;
 }
-body>div>div{
-	border : 5px solid yellow;
-}
-body>div>div>h1{
+
+body>div
+{
 	text-align : center;
 }
 
 
-#content{
-	border : 5px solid blue;
-	overflow : hidden;
-}
 
+header {
 
-body>div>article{
-	margin-top : 10px;	
-	border : 5px solid #339966;
-}
-article>div>div>img{
-	margin : 6px 0 6px 12px;
-	width : 91px;
-	height : 91px;
-}
-
-.list {
-	height : 104px;
-	border : 1px solid  #CDCDCD;
+	background-color : black;
 	overflow : hidden;
-	font-size : 
-}
-.list> * {
-	float : left;
-}
-.list>div>p{
-	display : block;
-	overflow : hidden;
-}
-.list>div>p>span:first-child{
-	font-size: 24px
-}
-.list>div>p>span:last-child{
-	font-size: 16px;
-	color : #1cace2;
 	}
-.ranking{
-	width : 100xp;
-	margin : 10xp 10px 0 10px; 
-	display : inline;
+
+header>div{
+	max-width : 1024px;
+	margin : auto;
+	}
+
+header>div>div{
+	background-color : black;
+	float : left;
+	padding : 11px 30px 11px 0px ;
+	font-size : 15px;
+	color : white;
+	
+	}
+
+#fest{
+	background-color : black;
+	color : #ff6567;
+	float : right;
+	font-size : 15px;
+	}
+
+header>div :hover{
+	color :  #1cace2;
+	cursor : pointer;
+	
+	}
+
+#content
+{
+	margin-top: 10px;
+	overflow : hidden;
 }
-.ranking > span:first-child{
-	font-size : 62px;
-	text-align : center;
-}
-.ranking > span:last-child{
-	font-size : 12.4px;
-	color : #989898;
-	height : 1;
-	text-align : center;
-}
-.history{
-	width : 34px;
+
+
+.member
+{
+	border-top: 1px solid  #CDCDCD;
+	border-bottom: 1px solid white;
 	height : 104px;
-	text-align : center;
+	overflow: hidden;
+}
+
+
+.history
+{
 	background-color : rgb(231,231,231);
-	border : 1px solid  #339966;
+	color : #8c8e90;
+	width : 34px;
+	line-height : 104px;
+	text-align : center;
 	float:left;
 }
-.fa.fa-arrow-up{
+
+
+.fa.fa-arrow-up
+{
 	color : #05c648;	
 }
-.fa.fa-arrow-down{
+
+.fa.fa-arrow-down
+{
 	color : #f93c33;
 }
 
+.winner
+{
+	width : 100xp;
+	margin : 10xp 10px 0 10px; 
+	float: left;
+}
+
+.member:hover
+{
+	border: 1px solid black;
+ }
+
+.winner > span
+{
+	display: block;
+	}	
+
+.winner > span:first-child{
+	display: block;
+	font-size : 62px;
+	text-align : center;
+	}
+
+.winner > span:last-child{
+	
+	color : #989898;
+	line-height : 1;
+	font-size : 12.4px;
+	
+	}
+
+.member > div >img{
+	margin : 6px 0 6px 12px;
+	height : 91px;
+	width : 91px;
+	float : left;
+}
+
+.member > div:nth-child(3) 
+{
+   overflow: hidden;
+   float: left;
+}
+
+.member>div>p{
+	display : inline-block;
+	float: left;
+}
+
+.member>div>p>span:first-child{
+	font-size: 24px;
+	display : block;
+}
+
+.member>div>p>span:last-child{
+	font-size: 16px;
+	color : #1cace2;
+	display : block;
+	}
+
+.member>div>p>span:last-child:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.member>div:last-child> i{
+
+	width : 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	float: right;
+	border: 2px solid black;
+	border-radius: 50%;
+	font-size: 15px;
+	margin-right: 10px;
+	margin-top : 15px;
+	
+}
+
+.member>div:last-child> :hover{
+	cursor : pointer;
+	color: #1cace2;
+	border-color: #1cace2;
+	}
 
 aside{
-	border : 5px solid brown;
 	background-color : black;
 	color : white;
 	width : 300px;
 	margin : 10px 10px 0 0;
 	float : right;
 	}	
-aside>div>div{
-	border : 5px solid red;
-	height : 100px;
-	padding : 0 10px 5px 10px;
-	border-bottom : 1px solid #989898;
-	overflow : hidden;
-	}
+
 #ashead{
 	background-color : #484647;
 	padding : 0.75em;
 	}
+
 #ashead>span{
 	color : black;
 	}
+
 .subta{
 	color :  #989898;
 	padding : 1em;
 	}
-aside>div>div>div>span{
-	width : 45px;
-	font-size : 2em;
-	text-align : center;
-	margin-top : 6px;
-	float : left;
+
+.contentrow{
+   height: 100px;
+   padding: 0px 10px 5px 10px;
+   border-bottom: 1px solid #989898 ;
+   }
+
+.contentrow > div:first-child{
+   color: #989898;
+   padding: 1em;
 	}
-aside>div>div>div img{
-	width : 2.5em;
-	height : 2.5em;
-	margin : 6px;
-	float : left;
-}
-aside>div>div>div p{
-	width : 192px;
-	margin : 0px;
-}
-.name{
-	font-size : 1em;
-	color : white;
-}
-.cont{
-	width : 192px;
-	
-}
-aside>div>div>div>p> span{
-	font-size : 12px;
-	color : #1cace2;
-	margin-top : 5px;
-}
-.fa.fa-play{
-	width : 32px;
-	height: 32px;
-	border : 2px solid white;
-	border-radius : 50%;
-	font-size: 15px;
-	margin : 5px;
-	text-align : center;
-	float : right;
-}
 
+.contentrow > div:nth-child(2){
+   width: 45px;
+   font-size: 2em;
+   margin-top: 6px;
+   float: left;
+   text-align: center;
+  
+	}
 
+.contentrow > div:nth-child(3){
+   float: left;
+	}
+
+.contentrow > div:last-child{
+   float: right;
+	}
+
+.contentrow > div:nth-child(3) > img{
+ 
+   height: 2.5em;
+   width: 2.5em;
+   margin: 6px;
+   float: left;
+	}
+
+.contentrow > div:nth-child(3) > p{
+   width: 192px;
+   margin: 0px;
+	}
+
+.contentrow > div:nth-child(3) > p > span{
+   display: block;
+	}
+
+.contentrow > div:nth-child(3) > p > span:first-child{
+   font-size: 1em;   
+	}
+
+.contentrow > div:nth-child(3) > p > span:last-child{
+   font-size: 12px;
+   color: #1cace2;
+	}
+
+.contentrow > div:nth-child(3) > p > span:last-child:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+.contentrow > div:last-child > i{
+  
+   height: 32px;
+   width: 32px;
+   line-height: 32px;
+   margin-top: 5px;
+   text-align: center;
+   border: 2px solid white;
+   border-radius: 50%;
+   font-size: 15px;
+  
+	}
+
+.contentrow > div:last-child > i:hover{
+	cursor : pointer;
+	color: #1cace2;
+	border-color: #1cace2;
+	}
 
 #week{
+	
 	background-color : black;
 	color : white;
 	text-align : center;
+	overflow: hidden;
 	}
+
 #week>div{
 	margin : 10px 10px 0 0;	
 	}
+
 #week>div>div i{
+
 	border : 1px solid black;
+	border-radius : 50%;
 	color : white;
 	float : left;
-	width : 32px;
 	height : 32px;
-	border-radius : 50%;
+	width : 32px;
 	font-size : 1.25em;	
 	overflow : hidden;
 	line-height: 170%
+
 	}
+
 #week>div .fa.fa-facebook{
 	color : white;
 	background-color : #3b5998;
+	margin-left: 10px;
 	}
+
 #week>div .fa.fa-twitter{
 	background-color : #55acee;
 	color : white;
@@ -183,67 +313,50 @@ aside>div>div>div>p> span{
 		
 	}
 
-	
-	
+footer{
+	background-color: black;
+	float: right;
+	position: auto;
+	}
+
+footer>div{
+	background-color: black;
+}
+
 	
 nav>div{
 	border : 1px solid  #D9D9D8;
 	float : left;
 	
     }
+
 nav>div:not(#search-wrap){
 	padding : 0.65em 0.72em 0.72em 0.65em;
 	
 	}
+
 nav>div:not(#search-wrap):hover{
 	border : 1px solid black;
-	box-shadow: 0px 0px 0px 1px
+	box-shadow: 0px 0px 0px 1px;
 	}
-
 
 
 #brand{
 	padding : 32px 20px 10px 20px;
 	overflow : hidden;
 	}
+
 #brand>a img{
-	width : 300px;
 	height : 62px;
+	width : 300px;
 	float: left;
 	}
+
 #brand>div>a {
-	margin-top : 45px;
-	float : right;
-	margin-right: 10px;
-	}
-
-
-
-
-
-header {
-	overflow : hidden;
-	background-color : black;
-	}
-header>div{
-	max-width : 1024px;
-	margin : auto;
-	}
-header>div>div{
-	background-color : black;
-	color : white;
-	float : left;
-	padding : 11px 30px 11px 0px ;
-	font-size : 15px;
-	}
-#fest{
-	background-color : black;
-	color : #ff6567;
-	float : right;
-	font-size : 15px;
-	}
-header>div :hover{
-	color :  #1cace2;
-	cursor : pointer;
 	
+	float : right;
+	margin-top : 45px;
+	margin-right: 10px;
+
 	}
+
